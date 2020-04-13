@@ -2,10 +2,8 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import { Button, Text } from "react-native-elements";
 import Spacer from "../components/Spacer";
-import AndroidKeyboardAdjust from 'react-native-android-keyboard-adjust';
 
 const MenuScreen = ({ navigation }) => {
-  AndroidKeyboardAdjust.setAdjustNothing();
   return (
     <View style={styles.container}>
       <Text style={{ alignSelf: "center" }} h2>
