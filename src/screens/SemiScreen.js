@@ -61,7 +61,8 @@ const SemiScreen = () => {
       </View>
 
       {/*This View contains the joystick*/}
-      <View style={styles.joystickView}>
+      <View style={styles.joystickView}      
+      >
         <AxisPad
           resetOnRelease={true}
           autoCenter={true}
