@@ -7,7 +7,7 @@ const MenuScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={{ alignSelf: "center" }} h2>
-        Maini Menu
+        Mainii Menu
       </Text>
 
       <Spacer>
